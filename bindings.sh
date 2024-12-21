@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bindings=""
+bindings="192.168.1.114"
 
 while IFS= read -r line || [ -n "$line" ]; do
   if [[ ! "$line" =~ ^# ]] && [[ -n "$line" ]]; then
